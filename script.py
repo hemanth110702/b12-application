@@ -28,4 +28,5 @@ response = requests.post(
   }
 )
 
-print(response.text)
+print("STATUS:", response.status_code)
+print("RESPONSE:", response.text)
